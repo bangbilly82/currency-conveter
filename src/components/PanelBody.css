@@ -1,0 +1,20 @@
+.panel-body {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.panel-body .add-more {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 1.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.panel-body .add-more label {
+  font-size: 0.7rem;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.input-form .input-form-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-form button{
+  box-sizing: border-box;
+  width: 24%;
+  height: 1.7rem;
+  padding: 0 0.8rem;
+  outline: none;
+  font-size: 0.6rem;
+  text-transform: capitalize;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #eee;
+  position: relative;
+}
+
+.input-form .input-form-2 select{
+  box-sizing: border-box;
+  width: 75%;
+  height: 1.7rem;
+  padding: 0 0.8rem;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+}

@@ -1,0 +1,48 @@
+.panel-list {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+.panel-list-left {
+  width: 90%;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.panel-list-right {
+  width: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 0 2px;
+}
+
+.panel-list-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel-list-title label {
+  font-size: 0.8rem;
+}
+
+.panel-list-left span {
+  font-size: 0.6rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.panel-list-right span {
+  cursor: pointer;
+}
+
+.panel-list-left .default-currency {
+  display: block;
+  font-size: 0.6rem;
+  font-weight: normal;
+  margin-top: 3px;
+}

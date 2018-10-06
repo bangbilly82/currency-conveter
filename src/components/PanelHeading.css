@@ -1,0 +1,16 @@
+.panel-heading {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.panel-heading span{
+  font-size: 0.7rem;
+  font-style: italic;
+}
+
+.panel-heading .panel-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
