@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { getFullLabel } from '../utils/Rates';
+import { getFullLabel, convertToLocalFormat } from '../utils/Rates';
 import './PanelList.css';
 
 class PanelList extends Component {
 
   generateCurrency() {
     const { rates, base, value } = this.props;
-    const converter = rates.rates[base] * value;
-    return converter.toLocaleString();
+    const rate = rates.rates[base] * value;
+    return convertToLocalFormat(rate);
   }
 
   removeHandler(index) {
