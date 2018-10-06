@@ -11,9 +11,9 @@ class App extends Component {
     this.state = {
       rates: null,
       base: Config.base,
+      option: Config.option,
       value: 1,
       loading: true,
-      option: Config.option
     }
   }
 
@@ -28,6 +28,12 @@ class App extends Component {
       });
   }
 
+  handleChange(value) {
+    this.setState({
+      value
+    });
+  }
+
   generateLoader() {
     return (
       <div className="loader-wrapper">
@@ -39,7 +45,7 @@ class App extends Component {
   generatePanel() {
     return (
       <div className="app-wrapper">
-        <Panel {...this.state}/>
+        <Panel {...this.state} handleChange={this.handleChange.bind(this)}/>
       </div>
     );
   }
