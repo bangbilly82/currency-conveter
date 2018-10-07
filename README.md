@@ -6,5 +6,5 @@ This currency converter app based on https://exchangeratesapi.io/
 - Install latest nodejs
 - Install docker
 - Clone this repository
-- type docker build -t currency-converter .
-- type docker run -p 8080:3000 -it currency-converter
+- In the terminal, type docker build -t currency-converter .
+- In the terminal, type docker run -p 8080:3000 -it currency-converter
